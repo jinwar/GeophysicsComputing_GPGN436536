@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository purpose
 
-This repo holds the Jupyter notebook course materials for **GPGN 436/536 Geophysical Computing**, taught by Dr. Ge Jin and Dr. Jeff Shragge in the Geophysics Department at Colorado School of Mines. There is no application code, build system, package, or test suite — the deliverables are the notebooks themselves, designed to be opened directly in Google Colab.
+This repo holds the Jupyter notebook course materials for **GPGN 436/536 Geophysical Computing**, taught by Dr. Ge Jin in the Geophysics Department at Colorado School of Mines. There is no application code, build system, package, or test suite — the deliverables are the notebooks themselves, designed to be opened directly in Google Colab.
 
 ## Structure
 
@@ -19,6 +19,7 @@ Each notebook opens with a Colab badge markdown cell linking to `https://colab.r
 - Code style is instructional/exploratory (course-demo notebooks), not production code: expect inline plotting, `HTML`/`animation` demos, and sympy-based symbolic derivations alongside numpy code. Match this style rather than introducing production-style abstractions.
 - Common libraries used across notebooks: `numpy`, `matplotlib.pyplot`, `scipy` (`interpolate`, `integrate`), `sympy`, `pandas`, `IPython.display` (`HTML`, `Image`), `imageio`, `time`. No `requirements.txt` exists; these are assumed to already be available in the Colab/Jupyter environment.
 - Kernel/language metadata across all notebooks is `python3`.
+- Notebook header cells carry an instructor line and a separate co-development credit to Dr. Jeff Shragge; in-code "written by Jeff Shragge" comments are authorship attribution and must not be removed.
 
 ## Working with notebooks
 
